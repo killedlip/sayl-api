@@ -1,0 +1,37 @@
+{
+  "type_download_resources": {
+    "_comment": "hash_json or patch_index_json",
+
+    "rustore": "hash_json",
+    "google_play": "hash_json",
+    "site":"hash_json",
+    "ios": "hash_json"
+  },
+  "type_download_resources_2": {
+    "_comment": "hash_json or patch_index_json",
+
+    "rustore": "hash_json",
+    "google_play": "hash_json",
+    "site": "hash_json",
+    "ios": "hash_json"
+  },
+  "type_download_resources_3": {
+    "_comment": "hash_json or patch_index_json",
+
+    "rustore": "hash_json",
+    "google_play": "hash_json",
+    "site": "hash_json",
+    "ios": "hash_json"
+  },
+"candidate_versions":
+{
+    "rustore": 0,
+    "google_play": 0,
+    "site": 0,
+    "ios": 0
+},
+  "download_size_without_confirm": 102400,
+  "is_enabled_recovery": true,
+  "download_speed_limit": 16384,
+  "is_enabled_check_resources": true
+}

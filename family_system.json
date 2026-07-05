@@ -1,0 +1,591 @@
+﻿{
+	"Upgrade": [
+		{
+			"id": 0,
+			"level": 1,
+			"money": 30000000,
+			"materials": 250,
+			"masks": 25,
+			"gasoline": 20,
+			"armour": 0,
+			"people": 0,
+			"ammo": 0,
+			"price": 60000
+		},
+		{
+			"id": 0,
+			"level": 2,
+			"money": 50000000,
+			"materials": 500,
+			"masks": 50,
+			"gasoline": 40,
+			"armour": 0,
+			"people": 0,
+			"ammo": 0,
+			"price": 30000000
+		},
+		{
+			"id": 0,
+			"level": 3,
+			"money": 100000000,
+			"materials": 1500,
+			"masks": 150,
+			"gasoline": 120,
+			"armour": 0,
+			"people": 0,
+			"ammo": 0,
+			"price": 50000000
+		},
+		{
+			"id": 0,
+			"level": 4,
+			"money": 150000000,
+			"materials": 3000,
+			"masks": 300,
+			"gasoline": 240,
+			"armour": 0,
+			"people": 0,
+			"ammo": 0,
+			"price": 100000000
+		},
+		{
+			"id": 0,
+			"level": 5,
+			"money": 250000000,
+			"materials": 6000,
+			"masks": 600,
+			"gasoline": 480,
+			"armour": 0,
+			"people": 0,
+			"ammo": 0,
+			"price": 150000000
+		},
+		{
+			"id": 0,
+			"level": 6,
+			"money": 500000000,
+			"materials": 12000,
+			"masks": 1200,
+			"gasoline": 960,
+			"armour": 0,
+			"people": 0,
+			"ammo": 0,
+			"price": 250000000
+		},
+		{
+			"id": 0,
+			"level": 7,
+			"money": 1000000000,
+			"materials": 15000,
+			"masks": 1500,
+			"gasoline": 1300,
+			"armour": 0,
+			"people": 0,
+			"ammo": 0,
+			"price": 500000000
+		},
+		{
+			"id": 1,
+			"level": 1,
+			"money": 0,
+			"materials": 0,
+			"masks": 0,
+			"gasoline": 0,
+			"armour": 0,
+			"people": 0,
+			"ammo": 1500,
+			"price": 500000
+		},
+		{
+			"id": 1,
+			"level": 2,
+			"money": 0,
+			"materials": 0,
+			"masks": 0,
+			"gasoline": 0,
+			"armour": 0,
+			"people": 0,
+			"ammo": 3000,
+			"price": 25000000
+		},
+		{
+			"id": 1,
+			"level": 3,
+			"money": 0,
+			"materials": 0,
+			"masks": 0,
+			"gasoline": 0,
+			"armour": 0,
+			"people": 0,
+			"ammo": 5000,
+			"price": 50000000
+		},
+		{
+			"id": 1,
+			"level": 4,
+			"money": 0,
+			"materials": 0,
+			"masks": 0,
+			"gasoline": 0,
+			"armour": 0,
+			"people": 0,
+			"ammo": 10000,
+			"price": 100000000
+		},
+		{
+			"id": 1,
+			"level": 5,
+			"money": 0,
+			"materials": 0,
+			"masks": 0,
+			"gasoline": 0,
+			"armour": 0,
+			"people": 0,
+			"ammo": 15000,
+			"price": 200000000
+		},
+		{
+			"id": 1,
+			"level": 6,
+			"money": 0,
+			"materials": 0,
+			"masks": 0,
+			"gasoline": 0,
+			"armour": 0,
+			"people": 0,
+			"ammo": 30000,
+			"price": 500000000
+		},
+		{
+			"id": 1,
+			"level": 7,
+			"money": 0,
+			"materials": 0,
+			"masks": 0,
+			"gasoline": 0,
+			"armour": 0,
+			"people": 0,
+			"ammo": 1000000,
+			"price": 1000000000
+		},
+		{
+			"id": 2,
+			"level": 1,
+			"money": 0,
+			"materials": 0,
+			"masks": 0,
+			"gasoline": 0,
+			"armour": 0,
+			"people": 50,
+			"ammo": 0,
+			"price": 50000000
+		},
+		{
+			"id": 2,
+			"level": 2,
+			"money": 0,
+			"materials": 0,
+			"masks": 0,
+			"gasoline": 0,
+			"armour": 0,
+			"people": 100,
+			"ammo": 0,
+			"price": 50000000
+		},
+		{
+			"id": 2,
+			"level": 3,
+			"money": 0,
+			"materials": 0,
+			"masks": 0,
+			"gasoline": 0,
+			"armour": 0,
+			"people": 200,
+			"ammo": 0,
+			"price": 150000000
+		},
+		{
+			"id": 2,
+			"level": 4,
+			"money": 0,
+			"materials": 0,
+			"masks": 0,
+			"gasoline": 0,
+			"armour": 0,
+			"people": 350,
+			"ammo": 0,
+			"price": 350000000
+		},
+		{
+			"id": 2,
+			"level": 5,
+			"money": 0,
+			"materials": 0,
+			"masks": 0,
+			"gasoline": 0,
+			"armour": 0,
+			"people": 500,
+			"ammo": 0,
+			"price": 500000000
+		},
+		{
+			"id": 2,
+			"level": 6,
+			"money": 0,
+			"materials": 0,
+			"masks": 0,
+			"gasoline": 0,
+			"armour": 0,
+			"people": 700,
+			"ammo": 0,
+			"price": 750000000
+		},
+		{
+			"id": 2,
+			"level": 7,
+			"money": 0,
+			"materials": 0,
+			"masks": 0,
+			"gasoline": 0,
+			"armour": 0,
+			"people": 1000,
+			"ammo": 0,
+			"price": 1000000000
+		}
+	],
+	"RewardTop": [
+		{
+			"place": 0,
+			"accessories_object_id": 7389,
+			"accessories_time": 3,
+			"accessories_gameId": 453,
+			"additional_car": 3,
+			"money_reward": 5000000,
+			"score_reward": 100,
+			"token_reward": 3
+		},
+		{
+			"place": 1,
+			"accessories_object_id": 7389,
+			"accessories_time": 3,
+			"accessories_gameId": 453,
+			"additional_car": 1,
+			"money_reward": 3000000,
+			"score_reward": 70,
+			"token_reward": 2
+		},
+		{
+			"place": 2,
+			"accessories_object_id": 7389,
+			"accessories_time": 3,
+			"accessories_gameId": 453,
+			"additional_car": 0,
+			"money_reward": 1000000,
+			"score_reward": 30,
+			"token_reward": 1
+		}
+	],
+	"Shop": [
+		{
+			"id": 1,
+			"title": "Катана",
+			"object_id": 7378,
+			"type": 0,
+			"type_id": 0,
+			"price": 100,
+			"server_id": 442
+		},
+		{
+			"id": 2,
+			"title": "Панама Stone",
+			"object_id": 7344,
+			"type": 0,
+			"type_id": 0,
+			"price": 60,
+			"server_id": 408
+		},
+		{
+			"id": 3,
+			"title": "Медведь",
+			"object_id": 7374,
+			"type": 0,
+			"type_id": 0,
+			"price": 100,
+			"server_id": 438
+		},
+		{
+			"id": 4,
+			"title": "Акула",
+			"object_id": 7387,
+			"type": 0,
+			"type_id": 0,
+			"price": 100,
+			"server_id": 451
+		},
+		{
+			"id": 5,
+			"title": "Лодка",
+			"object_id": 7385,
+			"type": 0,
+			"type_id": 0,
+			"price": 100,
+			"server_id": 449
+		},
+		{
+			"id": 6,
+			"title": "Пакет",
+			"object_id": 7397,
+			"type": 0,
+			"type_id": 0,
+			"price": 50,
+			"server_id": 461
+		},
+		{
+			"id": 7,
+			"title": "Гитара",
+			"object_id": 7390,
+			"type": 0,
+			"type_id": 0,
+			"price": 60,
+			"server_id": 454
+		},
+		{
+			"id": 8,
+			"title": "Гринч",
+			"object_id": 18397,
+			"type": 0,
+			"type_id": 0,
+			"price": 200,
+			"server_id": 454
+		},
+		{
+			"id": 9,
+			"title": "Очки Салют",
+			"object_id": 18401,
+			"type": 0,
+			"type_id": 0,
+			"price": 200,
+			"server_id": 454
+		},
+		{
+			"id": 10,
+			"title": "Синдикат",
+			"object_id": 2641,
+			"type": 1,
+			"type_id": 4,
+			"price": 100,
+			"server_id": 0
+		}
+	],
+	"Tasks": [
+		{
+			"id": 0, 
+			"title": "Активность",
+			"description": "Для стабильного продвижения семьи важна активность его участников. Для выполнения задания нужно чтобы 5 человек из семьи отыграли на сервере 1 час",
+			"money_reward": 80000,
+			"score_reward": 2000,
+			"token_reward": 1
+		},
+		{
+			"id": 1, 
+			"title": "Доминирование",
+			"description": "Чтобы попасть в рейтинг лучших семей, нужно показать свой скилл другим семьям. Для выполнения задания нужно захватить и удерживать как минимум два предприятия",
+			"money_reward": 200000,
+			"score_reward": 2000,
+			"token_reward": 3
+		},
+		{
+			"id": 2, 
+			"title": "Царство",
+			"description": "Быть ТОП семьей непросто. Именно поэтому нужно регулярно участвовать в захватах и проявлять активность. Для выполнения задания нужно находиться в ТОП-3 рейтинга семейств",
+			"money_reward": 400000,
+			"score_reward": 2000,
+			"token_reward": 5
+		},
+		{
+			"id": 3, 
+			"title": "Репутация",
+			"description": "Зарабатывать семейную репутацию - очень важное и ответственное дело. Для выполнения задания нужно заработать 4000 репутации, выполняя квесты и захватывая предприятия",
+			"money_reward": 500000,
+			"score_reward": 1000,
+			"token_reward": 3
+		}
+	],
+	"Colors" : [
+		{
+			"id": 0,
+			"title": "Белый",
+			"color": "#FFFFFF"
+		},
+		{
+			"id": 1,
+			"title": "Багровый",
+			"color": "#CD5C5C"
+		},
+		{
+			"id": 2,
+			"title": "Красный",
+			"color": "#FF0000"
+		},
+		{
+			"id": 3,
+			"title": "Темно-красный",
+			"color": "#8B0000"
+		},
+		{
+			"id": 4,
+			"title": "Светло-розовый",
+			"color": "#FFC0CB"
+		},
+		{
+			"id": 5,
+			"title": "Цвет кожи",
+			"color": "#FFA07A"
+		},
+		{
+			"id": 6,
+			"title": "Желтый",
+			"color": "#FFFF00"
+		},
+		{
+			"id": 7,
+			"title": "Золотой",
+			"color": "#FFD700"
+		},
+		{
+			"id": 8,
+			"title": "Фиолетовый",
+			"color": "#EE82EE"
+		},
+		{
+			"id": 9,
+			"title": "Темно-фиолетовый",
+			"color": "#800080"
+		},
+		{
+			"id": 10,
+			"title": "Серый",
+			"color": "#808080"
+		},
+		{
+			"id": 11,
+			"title": "Серебристый",
+			"color": "#C0C0C0"
+		},
+		{
+			"id": 12,
+			"title": "Лайм",
+			"color": "#00FF00"
+		},
+		{
+			"id": 13,
+			"title": "Зеленый",
+			"color": "#008000"
+		},
+		{
+			"id": 14,
+			"title": "Лесной",
+			"color": "#228B22"
+		},
+		{
+			"id": 15,
+			"title": "Синий",
+			"color": "#1E90FF"
+		},
+		{
+			"id": 16,
+			"title": "Цвет неба",
+			"color": "#00BFFF"
+		},
+		{
+			"id": 17,
+			"title": "Песочный",
+			"color": "#af9a5b"
+		},
+		{
+			"id": 18,
+			"title": "Лавандовый",
+			"color": "#b1b7f1"
+		},
+		{
+			"id": 19,
+			"title": "Бирюзовый",
+			"color": "#5ba8a4"
+		},
+		{
+			"id": 20,
+			"title": "Розовый",
+			"color": "#b9378f"
+		},
+		{
+			"id": 21,
+			"title": "Электрик",
+			"color": "#1028f4"
+		},
+		{
+			"id": 22,
+			"title": "Индиго",
+			"color": "#5054ec"
+		},
+		{
+			"id": 23,
+			"title": "Ярко-зеленый",
+			"color": "#01ff23"
+		},
+		{
+			"id": 24,
+			"title": "Оранжевый",
+			"color": "#f29527"
+		},
+		{
+			"id": 25,
+			"title": "Бордовый",
+			"color": "#6c4559"
+		},
+		{
+			"id": 26,
+			"title": "Сиреневый",
+			"color": "#f2dafe"
+		},
+		{
+			"id": 27,
+			"title": "Голубой",
+			"color": "#7eadff"
+		},
+		{
+			"id": 28,
+			"title": "Аметист",
+			"color": "#c95eec"
+		},
+		{
+			"id": 29,
+			"title": "Темно-бордовый",
+			"color": "#852048"
+		},
+		{
+			"id": 30,
+			"title": "Небесно-голубой",
+			"color": "#76b3f2"
+		},
+		{
+			"id": 31,
+			"title": "Горчичный",
+			"color": "#dcb72b"
+		},
+		{
+			"id": 32,
+			"title": "Изумрудный",
+			"color": "#31d166"
+		},
+		{
+			"id": 33,
+			"title": "Королевский синий",
+			"color": "#3969cd"
+		},
+		{
+			"id": 34,
+			"title": "Ледяной голубой",
+			"color": "#c9e8f2"
+		}
+	]
+}

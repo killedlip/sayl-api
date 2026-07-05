@@ -1,0 +1,42 @@
+﻿{
+  "waitTimeDuration": 5,
+  "skipButtonTime": 1,
+  "videos": [
+    {
+      "comment": "Синематик FTUE 1",
+      "videoName": "Cin_FTUE-2",
+      "skipFlag": 0
+    },
+    {
+      "comment": "Синематик FTUE 2",
+      "videoName": "Cin_FTUE-1",
+      "skipFlag": 1
+    },
+    {
+      "comment": "синематик  - интро",
+      "videoName": "cinematic_intro-S1_2026",
+      "skipFlag": 0
+    },
+    {
+      "comment": "синематик 1 - квест",
+      "videoName": "cinematic-quest1_intro",
+      "skipFlag": 1
+    },
+    {
+      "comment": "синематик 2 - квест 3",
+      "videoName": "cinematic-quest1_ending",
+      "skipFlag": 1
+    },
+    
+    {
+      "comment": "синематик автобуса - день",
+      "videoName": "bus-day",
+      "skipFlag": 0
+    },
+    {
+      "comment": "синематик автобуса - ночь",
+      "videoName": "bus-night",
+      "skipFlag": 0
+    }
+  ]
+}

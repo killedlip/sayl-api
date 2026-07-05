@@ -1,0 +1,1691 @@
+﻿{
+    "introCinematicId": "cinematic_hallo-1.mp4",
+    "gpsBtnText": "Событие \"Гром\"",
+    "gpsBtnCoords": [
+        -1357.69, -318.39, 257.77
+    ],
+    "greenZone": {
+        "coords": [
+            -1382.75, -270.95, 219.45, 225.0
+        ],
+        "radius": 200
+    },    
+    "offloadZone": {
+    "coords": [
+        [-1434.70, -249.80, -1370.15, -284.90],
+        [-1463.05, -284.50, -1320.85, -428.25],
+        [-1321.00, -402.75, -1261.50, -317.65]
+        ],
+        "colorQA": "#ffc700",
+        "message": "Автомобиль был выгружен. Воспользуйтесь парковкой для загрузки."
+    },
+    "currencyText": {
+        "currencyText1": "Новогоднее чудо",
+        "currencyText2": "Праздничные звезды"
+    },
+    "hub": {
+        "npcHubId": 5500069,
+        "npcHubCoords": [
+        -1358.84, -317.67, 257.77, 234
+        ],
+        "npcHubName": "{FFFF00}Полярник Клаус\n{FFFFFF}Подойдите для {FFFF00}взаимодействия",
+        "npcHubCameraPos": {
+            "StartPos": [
+                -1356.578491, -322.281158, 260.00
+            ],
+            "StartLookAt": [
+                -1358.175781, -317.902587, 257.768646
+            ]
+        },
+        "npcHubDialog": [
+            {
+                "id": 1,
+                "title": "NPC",
+                "description": "Впереди еще много праздничных испытаний и приключений! Не боишься вернуться к прохождению события <font color='#ffc700'>Новогоднее чудо</font>?",
+                "speaker": {
+                    "type": "npc",
+                    "skin": 5500069
+                },
+                "sound": "Event/santa_int-001.ogg",
+                "buttons": [
+                    {
+                    "name": "Начать",
+                    "color": 1
+                    },
+                    {
+                    "name": "Закрыть",
+                    "color": 3
+                    }
+                ],
+                "is_last": true
+            },
+            {
+                "id": 2,
+                "title": "NPC",
+                "description": "Тебе удалось пройти весь сюжет до конца! Новый год спасен, зло наказано, а заветные желания героев сбылись! Поздравляю!",
+                "speaker": {
+                    "type": "npc",
+                    "skin": 5500069
+                },
+                "sound": "Event/santa_int-002.ogg",
+                "buttons": [
+                    {
+                    "name": "Завершить",
+                    "color": 3
+                    }
+                ],
+                "is_last": true
+            }
+        ]
+    },
+    "spawn": {
+        "npcSpawnId": 5500068,
+        "npcSpawnCoords": [
+            [
+                -2677.03,
+                1975.19,
+                4.56,
+                336.14
+            ],
+            [
+                2748.614,
+                -2439.04,
+                21.781,
+                83.31
+            ],
+            [
+                824.2478,
+                779.9888,
+                13.1397,
+                248.2005
+            ],
+            [
+                -2416.5244,
+                189.2349,
+                26.0951,
+                0.5719
+            ],
+            [
+                1815.92, 
+                2505.65, 
+                14.68, 
+                38.0
+            ],
+            [
+                -2168.93, 
+                1565.15, 
+                9.88, 
+                258.0
+            ]
+        ]
+    },
+    "npcSpawnName": "Событие - {FFFF00}Новогоднее чудо\n{FFFFFF}Подойдите для {FFFF00}взаимодействия",
+    "npcSpawnCameraPos": {
+        "StartPos": [
+            -1347.674192, 
+            -331.451049, 
+            259.00
+        ],
+        "StartLookAt": [
+            -1357.452880,
+            -319.255767,
+            258.00
+        ]
+    },
+    "npcSpawnDialogDSM": "Приветствую, {FFFF00}%s{FFFFFF},\nТебе доступно новое событие - {FFFF00}Новогоднее чудо{FFFFFF},\n{FFFFFF}Новый год в опасности! И только ты можешь спасти его! Тебя ждут веселые и опасные приключения. Проведи этот праздник с нами!\n\n{FFFF00}Также доступно:\n{FFFF00}- Новогоднее чудо:{FFFFFF} Собирай {FFFF00}Праздничные звезды{FFFFFF}, наряжай {FFFF00}елку{FFFFFF} и получай крутые{FFFF00} награды.\n{FFFF00}- Мини игры: {FFFFFF} Парад Гонок и Ледовые Мосты.\n{FFFF00}- Кейс События:{FFFFFF} Основателя \n{FFFF00} - Календарь События:{FFFFFF} Новогоднее чудо.\n{FFFF00}- Новый сезон SAYL PASS.{FFFFFF}\n{FFFF00}- Активность{FFFFFF} Возвращение Иллюзии.\n\n{FFFF00}| {FFFFFF}Нажми {FFFF00}'Отметить'{FFFFFF} для отметки местоположения {FFFF00}локации",   
+    "npcSpawnDialogDSMSound": "Event/snezhana_int-003.ogg",
+    "npcSpawnDialog": [
+        {
+            "id": 1,
+            "title": "NPC",
+            "description": "Хочешь, чтобы твои заветные желания исполнились? Тебя ждут веселые и опасные приключения! Вперед!",
+            "speaker": {
+            "type": "npc",
+            "skin": 5500068
+            },
+            "sound": "Event/snezhana_int-001.ogg",
+            "buttons": [
+            {
+                "name": "Далее",
+                "color": 1
+            }
+            ],
+            "is_last": true
+        },
+        {
+            "id": 2,
+            "title": "NPC",
+            "description": "Запасайся горячим какао и удачей, собирай <font color='#ffc700'>'Праздничные звезды'</font> и создавай <font color='#ffc700'>зимнее чудо</font>!<br>Этот Новый год запомнится тебе надолго!<br>Готов?!",
+            "speaker": {
+            "type": "npc",
+            "skin": 5500068
+            },
+            "sound": "Event/snezhana_int-002.ogg",
+            "buttons": [
+            {
+                "name": "Начать",
+                "color": 1
+            },
+            {
+                "name": "Завершить",
+                "color": 3
+            }
+            ],
+            "is_last": true
+        }
+    ],
+    "returnHint": {
+        "header": "Кажется Вы забыли!",
+        "text": "Предлагаем Вам вернуться к прохождению сюжета события.",
+        "btnText": "Начать"
+    },
+    "hubAutoCoords": [
+        {
+            "id": 28716,
+            "vinyl": "remapttbody62",
+            "color": [
+                1,
+                36
+            ],
+            "bodykit": [2079, 2080, 2081, 2082, 2083, 2084],
+            "coords": [
+                -1296.07, 
+                -328.335, 
+                266.121, 
+                0.0, 
+                0.0, 
+                60.98
+            ],
+            "collisionObjectModelId": 33645,
+            "collisionObjectPosition": [-1296.07, -328.335, 265.121, 0.0, 0.0, 0.0]
+        },
+        {
+            "id": 28717,
+            "vinyl": "remapttbody63",
+            "color": [
+                1,
+                11
+            ],
+            "bodykit": [2089, 2091, 2092, 2093, 2095, 2096, 2097],
+            "coords": [
+                -1294.79, 
+                -334.124, 
+                264.439, 
+                0.0, 
+                0.0, 
+                165.121
+            ],
+            "collisionObjectModelId": 33643,
+            "collisionObjectPosition": [-1294.79, -334.124, 263.439, 0.0, 0.0, 0.0]
+        },
+        {
+            "id": 28719,
+            "vinyl": "remapttbody65",
+            "color": [
+                1,
+                36
+            ],
+            "bodykit": [2114, 2115, 2116, 2117, 2118],
+            "coords": [
+                -1301.35, 
+                -330.001, 
+                264.583, 
+                0.0, 
+                0.0, 
+                129.701
+            ],
+            "collisionObjectModelId": 33644,
+            "collisionObjectPosition": [-1301.35, -330.001, 263.583, 0.0, 0.0, 0.0]
+        },
+        {
+            "id": 28713,
+            "vinyl": "remapssbody94",
+            "color": [
+                1,
+                50
+            ],
+            "bodykit": [2056, 2058, 2059, 2060, 2062, 2063],
+            "coords": [
+                -1305.71, 
+                -334.552, 
+                262.666, 
+                0.0, 
+                0.0, 
+                -153.923
+            ],
+            "collisionObjectModelId": 33646,
+            "collisionObjectPosition": [-1305.71, -334.552, 261.666, 0.0, 0.0, 0.0]
+        }
+    ],
+    "mapAwardPoints": [],
+    "whisperAwards": [],
+    "Properties": [
+        {
+        "eventId": 5,
+        "miniGamesId": [1,2,3,4],
+        "dates": [1781342242, 1785031200],
+        "questOpenDate": 1774576800,
+        "color": "#0D9FD6",
+        "color2": "#0D9FD6",
+        "name": "ПЛЯЖНЫЕ РИТМЫ",
+        "bgImage": "bg_event_sum.png",
+        "icMenuImage": "ic_menu_event.png",
+        "icImage": "ic_event.png",
+        "bpOfferImage": "img_bpofferimage_sum.png",
+        "bpMultiplier": 2,
+        "bpLimit": 2000,
+        "lastChanceImage": "img_lvlofferimage.png",
+        "offerImage": "img_offerimage_sum.png",
+        "offerCost": 239,
+        "offerValue": 1000,
+        "eventCurrencyId": 23,
+        "eventCurrencyOfferName": "Кирпичей",
+        "entryStartPos": [-1569.56, 1112.02, 1.78],
+        "entryStartLookAt": [-1604.15, 1072.7, 1.45]
+    }
+    ],
+    "Settings": [
+    {
+            "id": 1,
+            "name": "ЛЕТНЯЯ ДАЧА",
+            "icImage": "ic_event.svg",
+            "objectGrades": [
+                0,
+                25,
+                50
+            ],
+            "objectImages": [
+                "img_event_grade_1_sum.png",
+                "img_event_grade_2_sum.png",
+                "img_event_grade_3_sum.png"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "ЗАДАНИЯ",
+            "icImage": "ic_checklist.svg",
+            "objectImages": [
+                "img_daily_tasks_sum.png",
+                "img_unique_tasks_sum.png"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "РЕЙТИНГ",
+            "icImage": "ic_reward.svg",
+            "objectImages": [
+                "bg_rating.png"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "МИНИ ИГРЫ",
+            "icImage": "ic_game.svg",
+            "objectImages": [
+                "img_minigame_0.png",
+                "img_minigame_1.png"
+            ]
+        }
+],
+    "EventLevel": [
+    {
+        "id": 1,
+        "cost": 1000,
+        "name": "10 BC",
+        "description": "10 BC",
+        "rarity": 1,
+        "typeId": 3,
+        "internalId": 0,
+        "count": 10
+    },
+    {
+		"id": 2,
+		"cost": 1200,
+		"name": "5 EXP",
+		"description": "5 EXP",
+		"rarity": 2,
+		"typeId": 1,
+		"internalId": 0,
+		"count": 5
+    },
+    {
+        "id": 3,
+        "cost": 1400,
+        "name": "1500 BP EXP",
+        "description": "1500 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 1500
+    },
+    {
+        "id": 4,
+        "cost": 1600,
+        "name": "X20 ПЫЛЬ",
+        "description": "X20 ПЫЛЬ",
+        "rarity": 1,
+        "typeId": 21,
+        "internalId": 0,
+        "count": 20
+    },
+    {
+        "id": 5,
+        "cost": 1800,
+        "name": "БОМЖА X1",
+        "description": "КЕЙС БОМЖА X1",
+        "rarity": 2,
+        "typeId": 4,
+        "internalId": 2,
+        "count": 1,
+        "typeReward": 1
+    },
+    {
+		"id": 6,
+		"cost": 2000,
+		"name": "GOLD 1Д.",
+		"description": "VIP GOLD НА 1Д.",
+		"rarity": 2,
+		"typeId": 9,
+		"internalId": 2,
+		"count": 1
+    },
+    {
+        "id": 7,
+        "cost": 2200,
+        "name": "2.000.000 Р",
+        "description": "2.000.000 Р",
+        "rarity": 2,
+        "typeId": 2,
+        "internalId": 0,
+        "count": 2000000
+    },
+    {
+        "id": 8,
+        "cost": 2400,
+        "name": "1500 BP EXP",
+        "description": "1500 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 1500
+    },
+    {
+        "id": 9,
+        "cost": 2600,
+        "name": "ЕЖЕДНЕВНЫЙ X1",
+        "description": "ЕЖЕДНЕВНЫЙ КЕЙС X1",
+        "rarity": 1,
+        "typeId": 4,
+        "internalId": 1,
+        "count": 1
+    },
+    {
+        "id": 10,
+        "cost": 2800,
+        "name": "Яна Лагуна",
+        "description": "Яна Лагуна",
+        "rarity": 4,
+        "typeId": 11,
+        "internalId": 134,
+        "count": 5500006,
+        "typeReward": 1,
+        "imageName": "img_5500006.png"
+    },
+    {
+        "id": 11,
+        "cost": 3000,
+        "name": "20 BC",
+        "description": "20 BC",
+        "rarity": 2,
+        "typeId": 3,
+        "internalId": 0,
+        "count": 20
+    },
+    {
+        "id": 12,
+        "cost": 3200,
+        "name": "5 EXP",
+        "description": "5 EXP",
+        "rarity": 2,
+        "typeId": 1,
+        "internalId": 0,
+        "count": 5
+    },
+    {
+        "id": 13,
+        "cost": 3400,
+        "name": "1500 BP EXP",
+        "description": "1500 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 1000
+    },
+    {
+        "id": 14,
+        "cost": 3600,
+        "name": "X20 ПЫЛЬ",
+        "description": "X20 ПЫЛЬ",
+        "rarity": 1,
+        "typeId": 21,
+        "internalId": 0,
+        "count": 20
+    },
+    {
+        "id": 15,
+        "cost": 3800,
+        "name": "Рюкзак",
+        "description": "Городской рюкзак",
+        "rarity": 4,
+        "typeId": 11,
+        "internalId": 100034,
+        "count": 1,
+        "typeReward": 1,
+		"imageName": "img_100034.png"
+    },
+    {
+		"id": 16,
+		"cost": 4000,
+		"name": "GOLD 1Д.",
+		"description": "VIP GOLD НА 1Д.",
+		"rarity": 2,
+		"typeId": 9,
+		"internalId": 2,
+		"count": 1
+    },
+    {
+        "id": 17,
+        "cost": 4200,
+        "name": "3.000.000 Р",
+        "description": "3.000.000 Р",
+        "rarity": 2,
+        "typeId": 2,
+        "internalId": 0,
+        "count": 3000000
+    },
+    {
+        "id": 18,
+        "cost": 4400,
+        "name": "1500 BP EXP",
+        "description": "1500 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 1000
+    },
+    {
+        "id": 19,
+        "cost": 4600,
+        "name": "ЕЖЕДНЕВНЫЙ X1",
+        "description": "ЕЖЕДНЕВНЫЙ КЕЙС X1",
+        "rarity": 1,
+        "typeId": 4,
+        "internalId": 1,
+        "count": 1
+    },
+    {
+        "id": 20,
+        "cost": 4800,
+        "name": "Шляпа",
+        "description": "Шляпа для питья",
+        "rarity": 4,
+        "typeId": 11,
+        "internalId": 7354,
+        "count": 1,
+        "typeReward": 1
+    },
+    {
+        "id": 21,
+        "cost": 5000,
+        "name": "20 BC",
+        "description": "20 BC",
+        "rarity": 2,
+        "typeId": 3,
+        "internalId": 0,
+        "count": 20
+    },
+    {
+		"id": 22,
+		"cost": 5200,
+		"name": "10 EXP",
+		"description": "10 EXP",
+		"rarity": 2,
+		"typeId": 1,
+		"internalId": 0,
+		"count": 10
+    },
+    {
+        "id": 23,
+        "cost": 5400,
+        "name": "1500 BP EXP",
+        "description": "1500 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 1500
+    },
+    {
+        "id": 24,
+        "cost": 5600,
+        "name": "X30 ПЫЛЬ",
+        "description": "X30 ПЫЛЬ",
+        "rarity": 1,
+        "typeId": 21,
+        "internalId": 0,
+        "count": 30
+    },
+    {
+        "id": 25,
+        "cost": 5800,
+        "name": "ПЛЯЖНЫЙ Х1",
+        "description": "ПЛЯЖНЫЙ КЕЙС Х1",
+        "rarity": 4,
+        "typeId": 4,
+        "internalId": 12,
+        "count": 1,
+        "typeReward": 1
+    },
+    {
+		"id": 26,
+		"cost": 6000,
+		"name": "GOLD 1Д.",
+		"description": "VIP GOLD НА 1Д.",
+		"rarity": 2,
+		"typeId": 9,
+		"internalId": 2,
+		"count": 1
+    },
+    {
+        "id": 27,
+        "cost": 6200,
+        "name": "5.000.000 Р",
+        "description": "5.000.000 Р",
+        "rarity": 2,
+        "typeId": 2,
+        "internalId": 0,
+        "count": 5000000
+    },
+    {
+        "id": 28,
+        "cost": 6400,
+        "name": "1500 BP EXP",
+        "description": "1500 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 1500
+    },
+    {
+        "id": 29,
+        "cost": 6600,
+        "name": "ЕЖЕДНЕВНЫЙ X1",
+        "description": "ЕЖЕДНЕВНЫЙ КЕЙС X1",
+        "rarity": 1,
+        "typeId": 4,
+        "internalId": 1,
+        "count": 1
+    },
+    {
+        "id": 30,
+        "cost": 6800,
+        "name": "Шляпа",
+        "description": "Шляпа Солнечный зайчик",
+        "rarity": 4,
+        "typeId": 11,
+        "internalId": 31966,
+        "count": 1,
+        "typeReward": 1,
+		"imageName": "img_31966.png"
+    },
+    {
+        "id": 31,
+        "cost": 7000,
+        "name": "25 BC",
+        "description": "25 BC",
+        "rarity": 2,
+        "typeId": 3,
+        "internalId": 0,
+        "count": 25
+    },
+    {
+        "id": 32,
+        "cost": 7200,
+        "name": "20 EXP",
+        "description": "20 EXP",
+        "rarity": 2,
+        "typeId": 1,
+        "internalId": 0,
+        "count": 20
+    },
+    {
+        "id": 33,
+        "cost": 7400,
+        "name": "1500 BP EXP",
+        "description": "1000 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 1500
+    },
+    {
+        "id": 34,
+        "cost": 7600,
+        "name": "X50 ПЫЛЬ",
+        "description": "X50 ПЫЛЬ",
+        "rarity": 1,
+        "typeId": 21,
+        "internalId": 0,
+        "count": 50
+    },
+    {
+        "id": 35,
+        "cost": 7800,
+        "name": "ПЛЯЖНЫЙ Х1",
+        "description": "ПЛЯЖНЫЙ КЕЙС Х1",
+        "rarity": 4,
+        "typeId": 4,
+        "internalId": 12,
+        "count": 1,
+        "typeReward": 1
+    },
+    {
+		"id": 36,
+		"cost": 8000,
+		"name": "PLATINUM 1Д.",
+		"description": "VIP PLATINUM НА 1Д.",
+		"rarity": 2,
+		"typeId": 9,
+		"internalId": 3,
+		"count": 1
+    },
+    {
+        "id": 37,
+        "cost": 8200,
+        "name": "5.000.000 Р",
+        "description": "5.000.000 Р",
+        "rarity": 2,
+        "typeId": 2,
+        "internalId": 0,
+        "count": 5000000
+    },
+    {
+		"id": 38,
+		"cost": 8400,
+		"name": "СТАНДАРТНЫЙ X1",
+		"description": "СТАНДАРТНЫЙ КЕЙС X1",
+		"rarity": 4,
+		"typeId": 4,
+		"internalId": 3,
+		"count": 1
+    },
+    {
+		"id": 39,
+		"cost": 8600,
+		"name": "БОМЖА X1",
+		"description": "КЕЙС БОМЖА X1",
+		"rarity": 1,
+		"typeId": 4,
+		"internalId": 2,
+		"count": 1
+    },
+    {
+        "id": 40,
+        "cost": 8800,
+        "name": "Панама",
+        "description": "Панама Stone Island",
+        "rarity": 4,
+        "typeId": 11,
+        "internalId": 7344,
+        "count": 1,
+        "typeReward": 1
+    },
+    {
+        "id": 41,
+        "cost": 9000,
+        "name": "25 BC",
+        "description": "25 BC",
+        "rarity": 2,
+        "typeId": 3,
+        "internalId": 0,
+        "count": 25
+    },
+    {
+		"id": 42,
+		"cost": 9200,
+		"name": "20 EXP",
+		"description": "20 EXP",
+		"rarity": 2,
+		"typeId": 1,
+		"internalId": 0,
+		"count": 20
+    },
+    {
+        "id": 43,
+        "cost": 9400,
+        "name": "1500 BP EXP",
+        "description": "1500 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 1500
+    },
+    {
+        "id": 44,
+        "cost": 9600,
+        "name": "X50 ПЫЛЬ",
+        "description": "X50 ПЫЛЬ",
+        "rarity": 1,
+        "typeId": 21,
+        "internalId": 0,
+        "count": 50
+    },
+    {
+		"id": 45,
+		"cost": 9800,
+		"name": "Сумка",
+		"description": "Сумка темщика",
+		"rarity": 4,
+		"typeId": 11,
+		"internalId": 100035,
+		"count": 1,
+		"typeReward": 1,
+		"imageName": "img_100035.png"
+    },
+    {
+		"id": 46,
+		"cost": 10000,
+		"name": "PLATINUM 2Д.",
+		"description": "VIP PLATINUM НА 2Д.",
+		"rarity": 2,
+		"typeId": 9,
+		"internalId": 3,
+		"count": 2
+    },
+    {
+        "id": 47,
+        "cost": 10200,
+        "name": "5.000.000 Р",
+        "description": "5.000.000 Р",
+        "rarity": 2,
+        "typeId": 2,
+        "internalId": 0,
+        "count": 5000000
+    },
+    {
+        "id": 48,
+        "cost": 10400,
+        "name": "1500 BP EXP",
+        "description": "1000 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 1500
+    },
+    {
+        "id": 49,
+        "cost": 10600,
+        "name": "ЕЖЕДНЕВНЫЙ X1",
+        "description": "ЕЖЕДНЕВНЫЙ КЕЙС X1",
+        "rarity": 1,
+        "typeId": 4,
+        "internalId": 1,
+        "count": 1
+    },
+    {
+        "id": 50,
+        "cost": 10800,
+        "name": "Синди",
+        "description": "Спасательница Синди",
+        "rarity": 4,
+        "typeId": 11,
+        "internalId": 134,
+        "count": 6843,
+        "typeReward": 1,
+        "imageName": "img_6843.png"
+    },
+    {
+        "id": 51,
+        "cost": 11000,
+        "name": "30 BC",
+        "description": "30 BC",
+        "rarity": 2,
+        "typeId": 3,
+        "internalId": 0,
+        "count": 30
+    },
+    {
+		"id": 52,
+		"cost": 11200,
+		"name": "20 EXP",
+		"description": "20 EXP",
+		"rarity": 2,
+		"typeId": 1,
+		"internalId": 0,
+		"count": 20
+    },
+    {
+        "id": 53,
+        "cost": 11400,
+        "name": "1500 BP EXP",
+        "description": "1500 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 1500
+    },
+    {
+        "id": 54,
+        "cost": 11600,
+        "name": "X50 ПЫЛЬ",
+        "description": "X50 ПЫЛЬ",
+        "rarity": 1,
+        "typeId": 21,
+        "internalId": 0,
+        "count": 50
+    },
+    {
+        "id": 55,
+        "cost": 11800,
+        "name": "Джонс",
+        "description": "Качок Джонс",
+        "rarity": 4,
+        "typeId": 11,
+        "internalId": 134,
+        "count": 6888,
+        "typeReward": 1,
+        "imageName": "img_6888.png"
+    },
+    {
+		"id": 56,
+		"cost": 12000,
+		"name": "PLATINUM 3Д.",
+		"description": "VIP PLATINUM НА 3Д.",
+		"rarity": 2,
+		"typeId": 9,
+		"internalId": 3,
+		"count": 3
+    },
+    {
+        "id": 57,
+        "cost": 12200,
+        "name": "5.000.000 Р",
+        "description": "5.000.000 Р",
+        "rarity": 3,
+        "typeId": 2,
+        "internalId": 0,
+        "count": 5000000
+    },
+    {
+        "id": 58,
+        "cost": 12400,
+        "name": "1500 BP EXP",
+        "description": "1500 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 1500
+    },
+    {
+        "id": 59,
+        "cost": 12600,
+        "name": "ЕЖЕДНЕВНЫЙ X1",
+        "description": "ЕЖЕДНЕВНЫЙ КЕЙС X1",
+        "rarity": 1,
+        "typeId": 4,
+        "internalId": 1,
+        "count": 1
+    },
+	{
+        "id": 60,
+        "cost": 12800,
+        "name": "Yamaha",
+        "nameStore": "Yamaha",
+        "description": "Yamaha SR400",
+        "descriptionStore": "Yamaha SR400",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28659,
+        "subCount": 147,
+        "count": 0,
+        "typeReward": 1,
+        "imageName": "img_28659.png"
+	}
+],
+    "LimitUpgrades": [
+		{
+		  "id": 0,
+		  "multEventRes": 1,
+		  "limitEventRes": 1000
+		},
+		{
+		  "id": 1,
+		  "multEventRes": 1.1,
+		  "limitEventRes": 1050,
+		  "costSoft": 980000,
+		  "eventResGift": 200
+		},
+		{
+		  "id": 2,
+		  "multEventRes": 1.2,
+		  "limitEventRes": 1100,
+		  "costSoft": 1980000,
+		  "eventResGift": 250
+		},
+		{
+		  "id": 3,
+		  "multEventRes": 1.3,
+		  "limitEventRes": 1150,
+		  "costSoft": 2980000,
+		  "eventResGift": 350
+		},
+		{
+		  "id": 4,
+		  "multEventRes": 1.4,
+		  "limitEventRes": 1200,
+		  "costSoft": 3980000,
+		  "eventResGift": 450
+		},
+		{
+		  "id": 5,
+		  "multEventRes": 1.5,
+		  "limitEventRes": 1300,
+		  "costSoft": 4980000,
+		  "eventResGift": 550
+		},
+		{
+		  "id": 6,
+		  "multEventRes": 1.6,
+		  "limitEventRes": 1350,
+		  "costSoft": 5980000,
+		  "eventResGift": 650
+		},
+		{
+		  "id": 7,
+		  "multEventRes": 1.7,
+		  "limitEventRes": 1400,
+		  "costSoft": 6980000,
+		  "eventResGift": 750
+		},
+		{
+		  "id": 8,
+		  "multEventRes": 1.8,
+		  "limitEventRes": 1500,
+		  "costSoft": 7980000,
+		  "eventResGift": 850
+		},
+		{
+		  "id": 9,
+		  "multEventRes": 1.9,
+		  "limitEventRes": 1550,
+		  "costSoft": 8980000,
+		  "eventResGift": 950
+		},
+		{
+		  "id": 10,
+		  "multEventRes": 2,
+		  "limitEventRes": 1600,
+		  "costSoft": 9980000,
+		  "eventResGift": 1050
+		},
+		{
+		  "id": 11,
+		  "multEventRes": 2.1,
+		  "limitEventRes": 1700,
+		  "costSoft": 10980000,
+		  "eventResGift": 1200
+		},
+		{
+		  "id": 12,
+		  "multEventRes": 2.2,
+		  "limitEventRes": 1800,
+		  "costSoft": 11980000,
+		  "eventResGift": 1300
+		},
+		{
+		  "id": 13,
+		  "multEventRes": 2.3,
+		  "limitEventRes": 1850,
+		  "costSoft": 12980000,
+		  "eventResGift": 1400
+		},
+		{
+		  "id": 14,
+		  "multEventRes": 2.4,
+		  "limitEventRes": 1950,
+		  "costSoft": 13980000,
+		  "eventResGift": 1550
+		},
+		{
+		  "id": 15,
+		  "multEventRes": 2.5,
+		  "limitEventRes": 2050,
+		  "costSoft": 14980000,
+		  "eventResGift": 1650
+		},
+		{
+		  "id": 16,
+		  "multEventRes": 2.6,
+		  "limitEventRes": 2150,
+		  "costSoft": 15980000,
+		  "eventResGift": 1800
+		},
+		{
+		  "id": 17,
+		  "multEventRes": 2.7,
+		  "limitEventRes": 2250,
+		  "costSoft": 16980000,
+		  "eventResGift": 1900
+		},
+		{
+		  "id": 18,
+		  "multEventRes": 2.8,
+		  "limitEventRes": 2350,
+		  "costSoft": 17980000,
+		  "eventResGift": 2050
+		},
+		{
+		  "id": 19,
+		  "multEventRes": 2.9,
+		  "limitEventRes": 2450,
+		  "costSoft": 18980000,
+		  "eventResGift": 2200
+		},
+		{
+		  "id": 20,
+		  "multEventRes": 3,
+		  "limitEventRes": 2550,
+		  "costSoft": 19980000,
+		  "eventResGift": 2350
+		},
+		{
+		  "id": 21,
+		  "multEventRes": 3.1,
+		  "limitEventRes": 2700,
+		  "costSoft": 20980000,
+		  "eventResGift": 2500
+		},
+		{
+		  "id": 22,
+		  "multEventRes": 3.2,
+		  "limitEventRes": 2800,
+		  "costSoft": 21980000,
+		  "eventResGift": 2650
+		},
+		{
+		  "id": 23,
+		  "multEventRes": 3.3,
+		  "limitEventRes": 2950,
+		  "costSoft": 22980000,
+		  "eventResGift": 2800
+		},
+		{
+		  "id": 24,
+		  "multEventRes": 3.4,
+		  "limitEventRes": 3050,
+		  "costSoft": 23980000,
+		  "eventResGift": 2950
+		},
+		{
+		  "id": 25,
+		  "multEventRes": 3.5,
+		  "limitEventRes": 3200,
+		  "costSoft": 24980000,
+		  "eventResGift": 3100
+		},
+		{
+		  "id": 26,
+		  "multEventRes": 3.6,
+		  "limitEventRes": 3350,
+		  "costSoft": 25980000,
+		  "eventResGift": 3300
+		},
+		{
+		  "id": 27,
+		  "multEventRes": 3.7,
+		  "limitEventRes": 3500,
+		  "costSoft": 26980000,
+		  "eventResGift": 3450
+		},
+		{
+		  "id": 28,
+		  "multEventRes": 3.8,
+		  "limitEventRes": 3650,
+		  "costSoft": 27980000,
+		  "eventResGift": 3650
+		},
+		{
+		  "id": 29,
+		  "multEventRes": 3.9,
+		  "limitEventRes": 3850,
+		  "costSoft": 28980000,
+		  "eventResGift": 3800
+		},
+		{
+		  "id": 30,
+		  "multEventRes": 4,
+		  "limitEventRes": 4000,
+		  "costSoft": 29980000,
+		  "eventResGift": 4000
+		},
+		{
+		  "id": 31,
+		  "multEventRes": 4.1,
+		  "limitEventRes": 4150,
+		  "costSoft": 30980000,
+		  "eventResGift": 4150
+		},
+		{
+		  "id": 32,
+		  "multEventRes": 4.2,
+		  "limitEventRes": 4350,
+		  "costSoft": 31980000,
+		  "eventResGift": 4350
+		},
+		{
+		  "id": 33,
+		  "multEventRes": 4.3,
+		  "limitEventRes": 4500,
+		  "costSoft": 32980000,
+		  "eventResGift": 4500
+		},
+		{
+		  "id": 34,
+		  "multEventRes": 4.4,
+		  "limitEventRes": 4700,
+		  "costSoft": 33980000,
+		  "eventResGift": 4700
+		},
+		{
+		  "id": 35,
+		  "multEventRes": 4.5,
+		  "limitEventRes": 4850,
+		  "costSoft": 34980000,
+		  "eventResGift": 4850
+		},
+		{
+		  "id": 36,
+		  "multEventRes": 4.6,
+		  "limitEventRes": 5050,
+		  "costSoft": 35980000,
+		  "eventResGift": 5050
+		},
+		{
+		  "id": 37,
+		  "multEventRes": 4.7,
+		  "limitEventRes": 5200,
+		  "costSoft": 36980000,
+		  "eventResGift": 5200
+		},
+		{
+		  "id": 38,
+		  "multEventRes": 4.8,
+		  "limitEventRes": 5400,
+		  "costSoft": 37980000,
+		  "eventResGift": 5400
+		},
+		{
+		  "id": 39,
+		  "multEventRes": 4.9,
+		  "limitEventRes": 5550,
+		  "costSoft": 38980000,
+		  "eventResGift": 5550
+		},
+		{
+		  "id": 40,
+		  "multEventRes": 5,
+		  "limitEventRes": 5750,
+		  "costSoft": 39980000,
+		  "eventResGift": 5750
+		},
+		{
+		  "id": 41,
+		  "multEventRes": 5.1,
+		  "limitEventRes": 5950,
+		  "costSoft": 40980000,
+		  "eventResGift": 5950
+		},
+		{
+		  "id": 42,
+		  "multEventRes": 5.2,
+		  "limitEventRes": 6100,
+		  "costSoft": 41980000,
+		  "eventResGift": 6100
+		},
+		{
+		  "id": 43,
+		  "multEventRes": 5.3,
+		  "limitEventRes": 6300,
+		  "costSoft": 42980000,
+		  "eventResGift": 6300
+		},
+		{
+		  "id": 44,
+		  "multEventRes": 5.4,
+		  "limitEventRes": 6450,
+		  "costSoft": 43980000,
+		  "eventResGift": 6450
+		},
+		{
+		  "id": 45,
+		  "multEventRes": 5.5,
+		  "limitEventRes": 6650,
+		  "costSoft": 44980000,
+		  "eventResGift": 6650
+		},
+		{
+		  "id": 46,
+		  "multEventRes": 5.6,
+		  "limitEventRes": 6800,
+		  "costSoft": 45980000,
+		  "eventResGift": 6800
+		},
+		{
+		  "id": 47,
+		  "multEventRes": 5.7,
+		  "limitEventRes": 7000,
+		  "costSoft": 46980000,
+		  "eventResGift": 7000
+		},
+		{
+		  "id": 48,
+		  "multEventRes": 5.8,
+		  "limitEventRes": 7150,
+		  "costSoft": 47980000,
+		  "eventResGift": 7150
+		},
+		{
+		  "id": 49,
+		  "multEventRes": 5.9,
+		  "limitEventRes": 7350,
+		  "costSoft": 48980000,
+		  "eventResGift": 7350
+		},
+		{
+		  "id": 50,
+		  "multEventRes": 6,
+		  "limitEventRes": 7500,
+		  "costSoft": 49980000,
+		  "eventResGift": 7500
+		}
+    ],
+    "RatingRewards": [
+    {
+        "id": 1,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 2,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 3,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 4,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 5,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 6,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 7,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 8,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 9,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 10,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 11,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 12,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 13,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 14,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 15,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 16,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 17,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 18,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 19,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    },
+    {
+        "id": 20,
+        "name": "Audi RS Q e-tron Dacar",
+        "nameStore": "Audi Dacar",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 28660,
+        "count": 0,
+        "subCount": 129,
+        "imageName": "img_28660.png"
+    }
+],
+    "Tasks": [
+    {
+        "id": 1,
+        "typeId": 1,
+        "typeName": "Особое",
+        "description": "Прокачайте SaylPass до 10 уровня",
+        "requirementDescription": "Прокачено:",
+        "count": 10,
+        "award": 5000,
+        "typeBtn": 3
+    },
+    {
+        "id": 2,
+        "typeId": 1,
+        "typeName": "Особое",
+        "description": "Купите SaylPass",
+        "requirementDescription": "Куплено:",
+        "count": 1,
+        "award": 10000,
+        "typeBtn": 3
+    },
+    {
+        "id": 3,
+        "typeId": 1,
+        "typeName": "Особое",
+        "description": "Откройте 10 кейсов события",
+        "requirementDescription": "Открыто:",
+        "count": 10,
+        "award": 10000,
+        "typeBtn": 4
+    },
+    {
+        "id": 4,
+        "typeId": 1,
+        "typeName": "Особое",
+        "description": "Сыграйте в мини игры события 20 раз",
+        "requirementDescription": "Сыграно:",
+        "count": 20,
+        "award": 5000,
+        "typeBtn": 5
+    },
+    {
+        "id": 5,
+        "typeId": 1,
+        "typeName": "Особое",
+        "description": "Заработайте 50.000 Кирпичей",
+        "requirementDescription": "Заработано:",
+        "count": 50000,
+        "award": 5000,
+        "typeBtn": 5
+    },
+    {
+        "id": 6,
+        "typeId": 1,
+        "typeName": "Особое",
+        "description": "Потратьте 5000 BC",
+        "requirementDescription": "Потрачено:",
+        "count": 5000,
+        "award": 10000,
+        "typeBtn": 2
+    },
+    {
+        "id": 7,
+        "typeId": 2,
+        "typeName": "Ежедневное",
+        "description": "Сыграйте в любую мини игру события 1 раз",
+        "requirementDescription": "Сыграно:",
+        "count": 1,
+        "award": 500,
+        "typeBtn": 5
+    },
+    {
+        "id": 8,
+        "typeId": 2,
+        "typeName": "Ежедневное",
+        "description": "Сыграйте в мини игру Монетный заплыв 1 раз",
+        "requirementDescription": "Выполнено:",
+        "count": 1,
+        "award": 500,
+        "typeBtn": 5
+    },
+    {
+        "id": 9,
+        "typeId": 2,
+        "typeName": "Ежедневное",
+        "description": "Победите в мини игре Пляжная гонка 1 раз",
+        "requirementDescription": "Собрано:",
+        "count": 1,
+        "award": 500,
+        "typeBtn": 5
+    },
+    {
+        "id": 10,
+        "typeId": 2,
+        "typeName": "Ежедневное",
+        "description": "Прокачайте 1 уровень SAYL PASS",
+        "requirementDescription": "Прокачено:",
+        "count": 1,
+        "award": 500,
+        "typeBtn": 3
+    },
+    {
+        "id": 11,
+        "typeId": 2,
+        "typeName": "Ежедневное",
+        "description": "Войдите в игру",
+        "requirementDescription": "Выполнено:",
+        "count": 1,
+        "award": 500,
+        "typeBtn": 3
+    }
+],
+    "MiniGames": [
+    {
+        "id": 1,
+        "playable": 1,
+        "name": "Пляжная гонка",
+        "imageName": "img_minigame_7.png"
+    },
+    {
+        "id": 2,
+        "playable": 1,
+        "name": "Монетный заплыв",
+        "imageName": "img_minigame_8.png"
+    }
+],
+    "Tutorial": [
+    {
+        "id": 1,
+        "header": "<font color=\"#FFC700\">ДАЧА</font>",
+        "imageName": "img_event_tutorial_1_sum.png",
+        "description": "<font color=\"#FFC700\">Дача</font> будет становиться лучше по мере того, как вы выполняете задания, участвуете в мини играх события и зарабатываете <font color=\"#FFC700\">Кирпичи</font>. За каждый уровень Вы получите ценную награду.<br> <font color=\"#E2310C\">Важно:</font> заработать <font color=\"#FFC700\"> Кирпичи</font> можно только играя во время события <font color=\"#FFC700\">Пляжные ритмы</font>."
+    },
+    {
+        "id": 2,
+        "header": "<font color=\"#FFC700\">Рейтинг</font>",
+        "imageName": "img_event_tutorial_2_sum.png",
+        "description": "Зарабатывайте <font color=\"#FFC700\">Кирпичи</font>, чтобы получать очки рейтинга. Чем выше Ваше положение в таблице рейтинга, тем ценнее награды Вы можете получить.<br> <font color=\"#E2310C\">Важно:</font> все награды рейтинга  <font color=\"#FFC700\">уникальные</font>, и выдаются в конце события."
+    },
+    {
+        "id": 3,
+        "header": "<font color=\"#FFC700\">Задания</font>",
+        "imageName": "img_event_tutorial_3_sum.png",
+        "description": "Выполняйте <font color=\"#FFC700\">Ежедневные</font> и <font color=\"#FFC700\">Особые</font> задания и получайте <font color=\"#FFC700\">Кирпичи</font> для прогресса <font color=\"#FFC700\">Дачи</font>.<br> <font color=\"#E2310C\">Важно:</font> <font color=\"#FFC700\">Ежедневные</font> задания обновляются каждый день. <font color=\"#FFC700\">Особые</font> задания выполняются один раз за все событие. Благодаря ним вы можете заработать сразу большое количество <font color=\"#FFC700\">Кирпичей</font>."
+    },
+    {
+        "id": 4,
+        "header": "<font color=\"#FFC700\">Мини игры</font>",
+        "imageName": "img_event_tutorial_4_sum.png",
+        "description": "Мини игры — это особые активности, доступные <font color=\"#FFC700\">только во время события</font>. Играя в них, вы зарабатываете <font color=\"#FFC700\">Кирпичи</font>.<br> Дневной лимит <font color=\"#FFC700\">Кирпичей</font> с мини игр можно увеличить, чтобы зарабатывать больше <font color=\"#FFC700\">Кирпичей</font>. <br><br><font color=\"#E2310C\">Важно:</font> благодаря <font color=\"#FFC700\">SAYL PASS Premium</font> вы сможете сильно увеличить свой лимит <font color=\"#FFC700\">Кирпичей</font>,<br> и быстрее получить <font color=\"#FFC700\">уникальные призы</font>."
+    },
+    {
+        "id": 5,
+        "header": "<font color=\"#FFC700\">Кейсы</font>",
+        "imageName": "img_event_tutorial_5.png",
+        "description": "Открывайте <font color=\"#FFC700\">Кейсы события</font>!<br>Помимо уникальных наград, вы можете получить еще больше <font color=\"#FFC700\">Кирпичей</font> для прогресса <font color=\"#FFC700\">Дачи</font>."
+    }
+]
+}
